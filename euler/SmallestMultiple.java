@@ -1,3 +1,5 @@
+//https://projecteuler.net/problem=5
+
 package euler;
 
 public class SmallestMultiple
