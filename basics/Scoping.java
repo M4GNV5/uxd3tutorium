@@ -1,3 +1,5 @@
+//warning: do not use this code, it intentionally contains errors
+
 public class Scoping
 {
 	Strint title;
