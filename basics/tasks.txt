@@ -1,0 +1,8 @@
+Student.java:	1	initialize the name, firstName and age of the Student with values passed to the constructor
+				2	create a toString method that combines a student's 'firstName' and 'name' to a String
+Lecture.java	3	initialize 'building' and 'roomNumber' from the room String provided to the constructor
+				4	initialize the students array to an array of 'maxStudents' length
+				5	create a new student and add it at the first free entry to the 'students' array
+				6	complete the getter for the students array
+				7	add every student to the string returned by toString
+				8	create and implement removeStudent(String name) method
