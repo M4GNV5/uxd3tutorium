@@ -1,0 +1,11 @@
+Car.java				1	add a modifier to the class Car that disallows its instantiation using 'new'
+						2	add a method 'getDistance(double time)' that child classes have to implement
+						3	add a method 'getSpeed(double time)' that child classes have to implement
+AcceleratingCar.java	4	call the parent's constructor
+and ConstantCar.java	5	implement the method 'getDistance(double time)'
+						6	implement the method 'getSpeed(double time)'
+						7	overload the toString method returning "Accelerating " + name or "Constant " + name
+							for the Accelerating-/ConstantCar class respectively
+Teleporter.java			8	implement the method 'getDistance(double time)'
+						9	fill the method 'getSpeed' so that it returns 'distance' every time the Teleporter teleports
+Main.java				10	Fill the array 'cars' with Cars of type AcceleratingCar, ConstantCar and/or Teleporter
