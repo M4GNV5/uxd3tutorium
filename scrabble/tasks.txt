@@ -1,0 +1,6 @@
+WordNode.java		1	initialize the subtrees array
+RootNode.java		2	correctly mark the current WordNode as an end node
+					3	iterate through the tree recursively, adding new entries where needed
+					4	write a recursive and/or iterative implementation for finding a WordNode
+					5	check if the node found via findNode is an end node
+					6	recursively call complete for all existing subtrees adding their return list to 'entries'
