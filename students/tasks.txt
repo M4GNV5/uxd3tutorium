@@ -1,0 +1,9 @@
+StudentList.java	1	define a nested class 'ListEntry' with a 'Student value' and a 'ListEntry next' property
+					2	implement the method 'prepend' that adds a new entry at the start of the list
+					3	implement the method 'length' that calculates the length of the list
+					4	implement the method 'remove' that removes a Student from the list
+					5	how would the 'remove' method differ if it would be a doubled linked list?
+					6	iterate to the end of the list and add 'val' there
+					7	make sure the function doesnt fail when the list is empty
+					
+					8	modify the list so it works with any type instead of just 'Student'
