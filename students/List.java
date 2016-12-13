@@ -1,9 +1,7 @@
 package students;
 
-public class StudentList
+public class List
 {
-	//*** 1 ***
-	
 	ListEntry head = null;
 	
 	public void prepend(Student val)
