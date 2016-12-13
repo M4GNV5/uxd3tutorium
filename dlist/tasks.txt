@@ -1,0 +1,8 @@
+DListEntry.java		0	Implement the generic class 'DListEntry' (only used for holding data)
+DList.java			1	Implement the method 'insert' that inserts a value at a given index in the list
+					2	Implement a method 'get' that gets the value at a specified index
+					3	Implement a method 'set' that sets a specified value at a specified index in the list
+					4	Can you shorten your code by defining a method with code that is needed in insert, get and set
+					5	Implement the method 'remove' that removes an entry at a specified index
+					6	Implement the method 'length' that returns the length of the list
+					7	How can you make 'length' faster?
