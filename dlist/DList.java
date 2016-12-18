@@ -1,3 +1,11 @@
+//
+//for the unsolved version go to
+//https://github.com/M4GNV5/uxd3tutorium/blob/69882b26707fa9b38383ddf908e6de70a7dfb69e/dlist/DList.java
+//please try for yourself before looking at the solution!
+//
+
+
+
 package dlist;
 
 public class DList<T>
