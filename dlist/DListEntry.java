@@ -1,3 +1,8 @@
 package dlist;
 
-//*** 0 ***
+class DListEntry<T>
+{
+	T value;
+	DListEntry<T> prev;
+	DListEntry<T> next;
+}
