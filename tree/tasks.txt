@@ -1,0 +1,13 @@
+BinaryNode.java		1	Implement the class BinaryNode
+BinaryTree.java		2	initialize the root element of the tree
+					3	implement the 'add' method that adds 'val' to the tree
+					4	implement the 'has' method that checks if 'val' is in the tree
+					
+Main.java			5	implement a main method that
+							- creates a LinkedList of 100/1000/1e6 entries
+							- creates a tree with the same entries
+							- compare the speed between calling 'indexOf' on the list vs 'has' on the tree
+					6	what is a good start value for the tree?
+					7	change the way you initialize the tree so searching in it becomes faster
+					
+BinaryTree.java		8	implement the 'remove' method that removes 'val' from the tree
