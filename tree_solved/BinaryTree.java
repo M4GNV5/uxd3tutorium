@@ -1,4 +1,4 @@
-package tree;
+package tree_solved;
 
 public class BinaryTree
 {
@@ -7,32 +7,6 @@ public class BinaryTree
 	public BinaryTree(int start)
 	{
 		root = new BinaryNode(start);
-	}
-
-	public void add(BinaryNode curr, int val)
-	{
-		if(curr.value < val)
-		{
-			if(curr.left != null)
-			{
-				add(curr.left, val);
-			}
-			else
-			{
-				curr.left = new BinaryNode(val);
-			}
-		}
-		else if(curr.value > val)
-		{
-			if(curr.right != null)
-			{
-				add(curr.right, val);
-			}
-			else
-			{
-				curr.right = new BinaryNode(val);
-			}
-		}
 	}
 
 	public void add(int val)
@@ -65,12 +39,34 @@ public class BinaryTree
 					return;
 				}
 			}
+			else
+			{
+				return;
+			}
 		}
 	}
 
 	public boolean has(int val)
 	{
-		//*** 4 ***
+		BinaryNode curr = root;
+
+		while(curr != null)
+		{
+			if(curr.value < val)
+			{
+				curr = curr.left;
+			}
+			else if(curr.value > val)
+			{
+				curr = curr.right;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+		return false;
 	}
 
 	public void remove(int val)
