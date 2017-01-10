@@ -1,0 +1,10 @@
+a typical imgur url looks like this:
+	https://i.imgur.com/JqV8UP2I.jpg
+we want to parse this into
+	- whether its https or http (here https)
+	- the image id (here JqV8UP2I)
+	- the file type (here jpg)
+
+MediaType.java		1	define the enum MediaType
+ImageUrl.java		2	implement the constructor of ImageUrl parsing an imgur url into the ImgurUrl object
+					3	define getters for the private ImgurUrl fields
