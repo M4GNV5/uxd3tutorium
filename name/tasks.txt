@@ -1,0 +1,10 @@
+Name.java		1	set firstName and name from the nameParts array
+				2	implement isAliasName checking id a string has the form "\"name\""
+				3	implement convertAliasName extracting the "name" from "\"name\""
+				4	our nameParts has a minimum length of 3, check if the 2nd part is an alias or
+						a second name setting this.alias or this.secondName respectively
+				5	our nameParts has a length of 4
+						- check if the 3rd part is an alias or a second name
+						- make sure you dont have two alias or two second names
+						- set this.alias or this.secondName appropriately
+				
