@@ -1,0 +1,11 @@
+Recursive linked lists
+
+List.java		1	Implement the method 'count', using a similar approach to the 'add' method.
+					The 'count' method shall return the count of elements in the list
+				2	Look at the 'get' method, what possible runtime error could occur?
+					Is this also a problem for your 'count' implementation?
+				3	Implement the 'clamp' method that sets all values <min to min and all
+					values >max to max
+				4	Implement the 'filter' method that similar to 'clamp' takes a min and a max argument
+					but removes values from the list instead of modifying their values when their
+					values are <min or >max
