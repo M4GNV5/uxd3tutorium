@@ -21,6 +21,6 @@ public class Main
 		vals.filter(4, 9);
 		
 		for(int i = 0; i < vals.count(); i++)
-			System.out.println("filtered |vals[" + i + "] = " + vals.get(i));
+			System.out.println("filtered | vals[" + i + "] = " + vals.get(i));
 	}
 }
