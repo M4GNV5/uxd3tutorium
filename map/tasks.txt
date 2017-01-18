@@ -1,0 +1,11 @@
+Map.java
+			1	make the Map class take a type T
+				- fill in the correct type for 'value'
+				- fill in the correct type for 'next'
+			2	implement the method 'get'
+			3	implement the method 'set'
+			4	implement the method 'has'
+			5	add a second type parameter to Map that represents the type of the key. You need to:
+				- update the type of 'key'
+				- update the type of 'next'
+				- update the type of the key parameters in the 'get', 'set' and 'has' methods
